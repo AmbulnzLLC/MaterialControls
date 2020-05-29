@@ -3,7 +3,6 @@ Pod::Spec.new do |s|
   s.version = '1.2.2'
   s.license = 'MIT'
   s.summary = 'Material Design controls for iOS writen in Objective-C.'
-  s.homepage = 'https://github.com/fpt-software/Material-Controls-For-iOS'
   s.authors = {
     "FPT Software": "mobility@fsoft.com.vn"
   }
