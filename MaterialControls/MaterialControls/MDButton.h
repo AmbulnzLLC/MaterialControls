@@ -58,6 +58,8 @@ IB_DESIGNABLE
                          type:(MDButtonType)buttonType
                   rippleColor:(nullable UIColor *)rippleColor;
 
+- (void)stopEffectsImmediately;
+
 @end
 NS_ASSUME_NONNULL_END
 #endif

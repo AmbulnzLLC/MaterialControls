@@ -92,6 +92,14 @@
   }
 }
 
+//
+// MDButton tap action that pushes a VC never completes it's ripple animation
+// call this to reset MDButton UI appearance
+// 
+- (void)stopEffectsImmediately {
+  [_mdLayer stopEffectsImmediately];
+}
+
 #pragma mark setters
 - (void)setFrame:(CGRect)frame {
   [super setFrame:frame];
